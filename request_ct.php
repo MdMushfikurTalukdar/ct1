@@ -1,4 +1,24 @@
-<h1> You want to send request ? <h1>
+<h1>Requesting for CT</h1>
 
-<button><a href = "request_entry.php"> Confirm </a></button>
-<button><a href = "index.php"> Cansel </a></button>
+
+
+<form method=get action=request_entry.php>
+
+	Name: <input type=text name=name> <br>
+
+	<p>
+
+	Missed Course: <input type=text name=missed_course> <br>
+
+	<p>
+        
+	CT Date : <input type=text name=ct_date> <br>
+    <p>
+        
+        Reason : <input type=text name=reason> <br>
+    <p>
+    
+
+	<input type=submit value=Request>
+
+</form>
