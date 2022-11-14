@@ -7,3 +7,7 @@ git commit -m "adding txt file for storing all comment"
 git add .
 git commit -m "....."
 
+git branch apply_for_mackup
+
+git checkout apply_for_mackup
+
