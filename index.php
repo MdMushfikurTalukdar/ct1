@@ -19,8 +19,8 @@
         echo "<td> $ct_date </td>";
         echo "<td> $reason </td>";
         echo "<td> $r_status </td>";
-		echo "<td> <a href = 'request_ct.php?id=$id'> Add Request </a> </td>";
-		echo "<td> <a href = 'request_entry.php?id=$id&name=$name&missed_course=$missed_course
+		echo "<td> <a href = 'cansel_ct.php?id=$id'> Add Request </a> </td>";
+		echo "<td> <a href = 'request_ct.php?id=$id&name=$name&missed_course=$missed_course
         &ct_date=$ct_date&reason=$reason&r_status=$r_status'> Cansel Request </a> </td>";
 		echo "</tr> \n";
 	}
