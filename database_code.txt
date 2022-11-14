@@ -1,0 +1,13 @@
+CREATE DATABASE Mackup_CT_Management;
+
+use Mackup_CT_Management;
+
+CREATE TABLE Request_makeup( 
+	id INT AUTO_INCREMENT, 
+	name char(50), 
+	missed_course char(50),
+	ct_date char(30),
+	reason char(50),
+	r_status char(20),
+	PRIMARY KEY(id) 
+);

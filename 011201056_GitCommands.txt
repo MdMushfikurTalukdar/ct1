@@ -1,1 +1,4 @@
 git clone https://github.com/Mushfikur382/ct1.git
+
+git commit -m "adding txt file for storing all comment"
+
